@@ -1,5 +1,9 @@
 # Sistema de captura de flujos de datos multimodales para el análisis de movimientos deportivos.
 
+## Descargar el ZED SDK
+
+- Descargar [ZED SDK] (https://www.stereolabs.com/developers/release)
+
 ## ZED SDK - SVO Recording
 
 ### Build the program
