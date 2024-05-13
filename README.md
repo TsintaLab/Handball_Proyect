@@ -2,7 +2,7 @@
 
 ## Descargar el ZED SDK
 
-- Descargar [ZED SDK] (https://www.stereolabs.com/developers/release)
+- Descargar [ZED SDK](https://www.stereolabs.com/developers/release)
 
 ## ZED SDK - SVO Recording
 
