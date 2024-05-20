@@ -23,4 +23,7 @@ Para el funcionamiento del sensor se siguen los siguientes paso:
  - Build for [Windows](https://www.stereolabs.com/docs/app-development/cpp/windows/)
  - Build for [Linux/Jetson](https://www.stereolabs.com/docs/app-development/cpp/linux/)
 
-## Sensor ZED 2i
+## Grabación del video con el sensor ZED 2i
+Para comenzar con la captura de los videos se utilizo el código que esta en:
+-La carpeta [svoRecording](https://github.com/TsintaLab/Handball_Proyect/tree/main/svoRecording) en donde se hicieron modificaciones al código original del SDK del sensor. sigue los pasos de compilación en la sección de **Build the program** 
+
