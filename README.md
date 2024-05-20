@@ -9,25 +9,30 @@ Este es el arreglo experimental
 
 ![Arreglo experimental](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Diagrama_DT_2.png)
 
-En donde 1 es la porteria, 2 es el equipo de computo, 3 es el sensor estereoscopico, 4 es el display LED y 5 una cámara Action CAM
+En donde 
+1. Porteria
+2. Equipo de computo
+3. Sensor ZED2i
+4. Display LED
+5. Action CAM
 
 Para el funcionamiento del sensor se siguen los siguientes paso:
-
-## Descargar el ZED SDK
+## Sensor ZED 2i
+### Descargar el ZED SDK
 
 - Descargar [ZED SDK](https://www.stereolabs.com/developers/release)
 
-## ZED SDK - SVO Recording
+### ZED SDK - SVO Recording
 
 ### Build the program
  - Build for [Windows](https://www.stereolabs.com/docs/app-development/cpp/windows/)
  - Build for [Linux/Jetson](https://www.stereolabs.com/docs/app-development/cpp/linux/)
 
-## Grabación del video con el sensor ZED 2i
+### Grabación del video con el sensor ZED 2i
 Para comenzar con la captura de los videos se utilizo el código que esta en:
 - Carpeta [svoRecording](https://github.com/TsintaLab/Handball_Proyect/tree/main/svoRecording)
 
-## Body Tracking con el sensor ZED 2i
+### Body Tracking con el sensor ZED 2i
 En donde se hicieron modificaciones al código original del SDK del sensor. Sigue los pasos de compilación en la sección de **Build the program.**
 
 En la siguiente carpeta está el código que se modifico para realizar varios procesamientos:
@@ -40,3 +45,7 @@ En la siguiente carpeta está el código que se modifico para realizar varios pr
 7. Guardar las coordenas de los joints. X, Y y Z
 
 - Carpeta [BodyTracking](https://github.com/TsintaLab/Handball_Proyect/tree/main/BodyTracking)
+
+## Display LEDs
+
+
