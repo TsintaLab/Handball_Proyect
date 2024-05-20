@@ -27,5 +27,15 @@ Para el funcionamiento del sensor se siguen los siguientes paso:
 Para comenzar con la captura de los videos se utilizo el código que esta en:
 - Carpeta [svoRecording](https://github.com/TsintaLab/Handball_Proyect/tree/main/svoRecording)
 
-En donde se hicieron modificaciones al código original del SDK del sensor. sigue los pasos de compilación en la sección de **Build the program** 
+En donde se hicieron modificaciones al código original del SDK del sensor. Sigue los pasos de compilación en la sección de **Build the program.**
 
+En la siguiente carpeta está el código que se modifico para realizar varios procesamientos:
+1.- Segmentación de los videos en frames.
+2.- Selección de una Región de interes.
+3.- La configuración del número de joints. (38 joints)
+4.- El body tracking por frames.
+5.- Guardar los datos RGB
+6.- Guardar los datos de profundidad.
+7.- Guardar las coordenas de los joints. X, Y y Z
+
+- Carpeta [BodyTracking](https://github.com/TsintaLab/Handball_Proyect/tree/main/BodyTracking)
