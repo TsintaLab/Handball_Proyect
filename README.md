@@ -8,6 +8,11 @@ La información restante es el procesaiento de los datos, para su análisis, des
 Este es el arreglo experimental 
 
 ![Arreglo experimental](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Diagrama_DT_2.png)
+
+En donde 1 es la porteria, 2 es el equipo de computo, 3 es el sensor estereoscopico, 4 es el display LED y 5 una cámara Action CAM
+
+Para el funcionamiento del sensor se siguen los siguientes paso:
+
 ## Descargar el ZED SDK
 
 - Descargar [ZED SDK](https://www.stereolabs.com/developers/release)
