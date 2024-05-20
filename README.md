@@ -27,6 +27,7 @@ Para el funcionamiento del sensor se siguen los siguientes paso:
 Para comenzar con la captura de los videos se utilizo el código que esta en:
 - Carpeta [svoRecording](https://github.com/TsintaLab/Handball_Proyect/tree/main/svoRecording)
 
+## Body Tracking con el sensor ZED 2i
 En donde se hicieron modificaciones al código original del SDK del sensor. Sigue los pasos de compilación en la sección de **Build the program.**
 
 En la siguiente carpeta está el código que se modifico para realizar varios procesamientos:
