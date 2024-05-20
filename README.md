@@ -45,11 +45,9 @@ En la siguiente carpeta está el código que se modifico para realizar varios pr
 7. Guardar las coordenas de los joints. X, Y y Z
 
 ## Display LEDs
-
-![Arreglo experimental](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Diagrama_DT_2.png)
-
-- Carpeta [BodyTracking](https://github.com/TsintaLab/Handball_Proyect/tree/main/BodyTracking)
-
-## Display LEDs
+El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales tienen un controlador MAX7219 se controla con la raspberry pi 3B con un raspbian de 32 bits instalado en una MicroSD de 32 Gb.
 
 ![Display LED](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Display.png)
+
+En la siguiente carpeta se encuentra el código para la secuencia de encendido de los 9 cuadrantes.
+ - Carpeta [displaLED](https://github.com/TsintaLab/Handball_Proyect/tree/main/displayLED)
