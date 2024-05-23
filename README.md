@@ -113,7 +113,7 @@ Para el refinamiento de los datos se hace un analisis exhaustivo de los datos de
 
 ## Análisis de las frecuencias de los movimientos mediante angulos y DTW
 
-El script para calcular los ángulos de los joints y obtendremos 3 ángulos distintos, se encuentra en [angulosG1](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/angulosG1.py) ahora el analisis para el DTW, se sigue el siguiente Algoritmo :
+El script para calcular los ángulos de los joints y obtendremos 3 ángulos distintos, se encuentra en [angulosG1](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/angulosG1.py) ahora el analisis para el DTW, se sigue el siguiente Algoritmo con el script [DTW](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/dtw_iter_3.py) :
 
 ### Dynamic Time Warping (DTW) con distancia euclidiana y extracción del Warping Path
 
@@ -162,9 +162,3 @@ Función: DTW_with_path(A, B)
     Fin Mientras
     Agregar (1, 1) a path
     retornar D[N][M], path
-
-
-
-
-
-
