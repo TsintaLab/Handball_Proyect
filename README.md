@@ -90,7 +90,7 @@ Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](ht
 Con el script [depurar joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/frames_nonan.py) se hace la limpieza de los frames que no contienen los joints clave que son **(["Hip", "Elbow", "Shoulder", "Wrist", "Knee"])** dependiendo la lateralidad dominante "R" Diestro o "L" Zurdo. 
 
 ### Refinamiento de los datos
-Para el refinamiento de los datos se hace un analisis exhaustivo de los datos depurados y se realizan mediante el srcipt [analisis de datos](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/Analisis_BDHandball.py) con el se obtienen distintos analisis como la **precisión del tiro**, **precisión en cuadrante**, **Nivel: Novato, Medio, Experto**, **Evaluación de los tiros por el experto** y **Lateralidad** de cada jugador y secuencia.
+Para el refinamiento de los datos se hace un analisis exhaustivo de los datos depurados y se realizan mediante el script [analisis de datos](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/Analisis_BDHandball.py) con el se obtienen distintos analisis como la **precisión del tiro**, **precisión en cuadrante**, **Nivel: Novato, Medio, Experto**, **Evaluación de los tiros por el experto** y **Lateralidad** de cada jugador y secuencia.
 
 <table>
   <tr>
