@@ -71,18 +71,23 @@ En la siguiente carpeta se encuentra el código para la secuencia de encendido d
 ## Análisis de datos 
 
 ### Creación de videos
+
 En la carpeta [DataAnalysis](https://github.com/TsintaLab/Handball_Proyect/tree/main/DataAnalysis) se encuentran distintos scripts en python, para visualización y análisis de datos que nos ayudan al refinamiento y depuración de la base de datos.
 
 El primer análisis fue la segmentación automática de frames, tomando en cuenta la cantidad que la velocidad de captura es de 60 fps asi que la segmentación dependiendo de la velocidad de tiro de los jugadores fue de 240 a 180 frames, la creación de los videos para el análisis del experto del área se utilizó el script [videoMaker2](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/videoMaker2.py) obteniendo como resultado el siguiente ejemplo [videoJugador1Sec1_Tiro1](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1.mp4). La primera depuración que se realizó fue manual se analizaron estos videos segmentados y se determinaron una cantidad menor de frames que explica mejor el tiro [videoJugador1Sec1_Tiro1_Segment](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/TiroJ1S1_Region1_Sec1.mp4) el tiro 1 del juagodro1Sec1 queda de 240 frames a 80 frames.
 
 ### Análisis visual lateralidad
 
-Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/analisis3D_2.py), el lado izquierdo del cuerpo se muestra con color rojo y el lado derecho con el color azul la espina dorsal con el color verde, tenemos un ejemplo en las siguientes animaciones una es con la sección del tiro seleccionada manualmente que consta de 80 frames y la otra animación es el tiro depurado con 73 frames una vez elminados los frames que no contienen los joints de interes (["L_Hip", "L_Elbow", "L_Shoulder", "L_Wrist", "L_Knee"]) para el análisis de los ángulos:
+Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/analisis3D_2.py), el lado izquierdo del cuerpo se muestra con color rojo y el lado derecho con el color azul la espina dorsal con el color verde, tenemos un ejemplo en las siguientes animaciones una es con la sección del tiro seleccionada manualmente que consta de 80 frames y la otra animación es el tiro depurado con 73 frames una vez elminados los frames que no contienen los joints de interes **(["Hip", "Elbow", "Shoulder", "Wrist", "Knee"])** para el análisis de los ángulos:
 
 1. Frames 80
 ![80Frames](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1_80.gif)
 
 2. Frames 73
 ![73Frames](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1.gif)
+
+### Depuración de frames
+Con el script [depurar joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/frames_nonan.py) se hace la limpieza de los frames que no contienen los joints clave que son **(["Hip", "Elbow", "Shoulder", "Wrist", "Knee"])** dependiendo la lateralidad dominante.
+
 
 
