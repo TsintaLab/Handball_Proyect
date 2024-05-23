@@ -102,10 +102,17 @@ Para el refinamiento de los datos se hace un analisis exhaustivo de los datos de
     <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma3.png" alt="Imagen 4"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_1_Ordenado.png" alt="Imagen 3"></td>
-    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_3.png" alt="Imagen 4"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_1_Ordenado.png" alt="Imagen 5"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_3.png" alt="Imagen 6"></td>
+  </tr>
+ <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma5.png" alt="Imagen 7"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Boxplot_Niveles.png" alt="Imagen 8"></td>
   </tr>
 </table>
+
+## Análisis de las frecuencias de los movimientos mediante angulos y DTW
+
 
 
 
