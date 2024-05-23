@@ -77,7 +77,7 @@ El primer análisis fue la segmentación automática de frames, tomando en cuent
 
 ### Análisis visual lateralidad
 
-Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/analisis3D_2.py), el lado izquierdo del cuerpo se muestra con color rojo y el lado derecho con el color azul la espina dorsal con el color verde, tenemos el ejemplo en las siguientes animaciones una es con la sección del tiro seleccionada manualmente y la otra con el tiro depurado una vez elminados los frames que no contienen los joints de interes para el análisis de los ángulos:
+Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/analisis3D_2.py), el lado izquierdo del cuerpo se muestra con color rojo y el lado derecho con el color azul la espina dorsal con el color verde, tenemos un ejemplo en las siguientes animaciones una es con la sección del tiro seleccionada manualmente que consta de 80 frames y la otra animación es el tiro depurado con 73 frames una vez elminados los frames que no contienen los joints de interes (["L_Hip", "L_Elbow", "L_Shoulder", "L_Wrist", "L_Knee"]) para el análisis de los ángulos:
 
 1. Frames 80
 ![80Frames](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1_80.gif)
