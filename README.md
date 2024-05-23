@@ -65,6 +65,13 @@ El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales 
 
 ![Display LED](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Display.png)
 
+<table>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Display.png" alt="Imagen 1"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_El_2_all_J1S1.png" alt="Imagen 2"></td>
+  </tr>
+  </table>
+
 En la siguiente carpeta se encuentra el código para la secuencia de encendido de los 9 cuadrantes.
  - Carpeta [displayLED](https://github.com/TsintaLab/Handball_Proyect/tree/main/displayLED)
 
