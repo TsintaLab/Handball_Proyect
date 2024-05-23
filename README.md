@@ -68,7 +68,7 @@ El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales 
 <table>
   <tr>
     <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Display.png" alt="Imagen 1"></td>
-    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_El_2_all_J1S1.png" alt="Imagen 2"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/GPIO.png" alt="Imagen 2"></td>
   </tr>
   </table>
 
