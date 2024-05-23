@@ -87,7 +87,29 @@ Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](ht
 ![73Frames](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1.gif)
 
 ### Depuración de frames
-Con el script [depurar joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/frames_nonan.py) se hace la limpieza de los frames que no contienen los joints clave que son **(["Hip", "Elbow", "Shoulder", "Wrist", "Knee"])** dependiendo la lateralidad dominante.
+Con el script [depurar joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/frames_nonan.py) se hace la limpieza de los frames que no contienen los joints clave que son **(["Hip", "Elbow", "Shoulder", "Wrist", "Knee"])** dependiendo la lateralidad dominante "R" Diestro o "L" Zurdo. 
+
+### Refinamiento de los datos
+Para el refinamiento de los datos se hace un analisis exhaustivo de los datos depurados y se realizan mediante el srcipt [analisis de datos](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/Analisis_BDHandball.py) con el se obtienen distintos analisis como la **precisión del tiro**, **precisión en cuadrante**, **Nivel: Novato, Medio, Experto**, **Evaluación de los tiros por el experto** y **Lateralidad** de cada jugador y secuencia.
+
+<table>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma1.png" alt="Imagen 1"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma1_2.png" alt="Imagen 2"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma2_1.png" alt="Imagen 3"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma3.png" alt="Imagen 4"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_1_Ordenado.png" alt="Imagen 3"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Histograma4_3.png" alt="Imagen 4"></td>
+  </tr>
+</table>
+
+
+
+
 
 
 
