@@ -46,6 +46,20 @@ En la siguiente carpeta está el código que se modifico para realizar varios pr
 
 ![38 joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/3DKeypoints.png)
 
+| KEYPOINT INDEX | KEYPOINT NAME         | KEYPOINT INDEX | KEYPOINT NAME           | KEYPOINT INDEX | KEYPOINT NAME             | KEYPOINT INDEX | KEYPOINT NAME           |
+|----------------|-----------------------|----------------|-------------------------|----------------|---------------------------|----------------|-------------------------|
+| 0              | PELVIS                | 10             | LEFT_CLAVICLE           | 20             | LEFT_KNEE                 | 30             | LEFT_HAND_THUMB_4       |
+| 1              | SPINE_1               | 11             | RIGHT_CLAVICLE          | 21             | RIGHT_KNEE                | 31             | RIGHT_HAND_THUMB_4      |
+| 2              | SPINE_2               | 12             | LEFT_SHOULDER           | 22             | LEFT_ANKLE                | 32             | LEFT_HAND_INDEX_1       |
+| 3              | SPINE_3               | 13             | RIGHT_SHOULDER          | 23             | RIGHT_ANKLE               | 33             | RIGHT_HAND_INDEX_1      |
+| 4              | NECK                  | 14             | LEFT_ELBOW              | 24             | LEFT_BIG_TOE              | 34             | LEFT_HAND_MIDDLE_4      |
+| 5              | NOSE                  | 15             | RIGHT_ELBOW             | 25             | RIGHT_BIG_TOE             | 35             | RIGHT_HAND_MIDDLE_4     |
+| 6              | LEFT_EYE              | 16             | LEFT_WRIST              | 26             | LEFT_SMALL_TOE            | 36             | LEFT_HAND_PINKY_1       |
+| 7              | RIGHT_EYE             | 17             | RIGHT_WRIST             | 27             | RIGHT_SMALL_TOE           | 37             | RIGHT_HAND_PINKY_1      |
+| 8              | LEFT_EAR              | 18             | LEFT_HIP                | 28             | LEFT_HEEL                 |                |                         |
+| 9              | RIGHT_EAR             | 19             | RIGHT_HIP               | 29             | RIGHT_HEEL                |                |                         |
+
+
 ## Display LEDs
 El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales tienen un controlador MAX7219 se controla con la raspberry pi 3B con un raspbian de 32 bits instalado en una MicroSD de 32 Gb.
 
