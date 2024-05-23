@@ -54,6 +54,7 @@ En la siguiente carpeta se encuentra el código para la secuencia de encendido d
 
 ## Análisis de datos 
 
+### Creación de videos
 En la carpeta [DataAnalysis](https://github.com/TsintaLab/Handball_Proyect/tree/main/DataAnalysis) se encuentran distintos scripts en python, para visualización y análisis de datos que nos ayudan al refinamiento y depuración de la base de datos.
 
 El primer análisis fue la segmentación automática de frames, tomando en cuenta la cantidad que la velocidad de captura es de 60 fps asi que la segmentación dependiendo de la velocidad de tiro de los jugadores fue de 240 a 180 frames, la creación de los videos para el análisis del experto del área se utilizó el script [videoMaker2](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/videoMaker2.py) obteniendo como resultado el siguiente ejemplo [videoJugador1Sec1_Tiro1](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1.mp4). La primera depuración que se realizó fue manual se analizaron estos videos segmentados y se determinaron una cantidad menor de frames que explica mejor el tiro [videoJugador1Sec1_Tiro1_Segmentacion](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/TiroJ1S1_Region1_Sec1.mp4) este tiro queda de 240 frames a 80 frames.
