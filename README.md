@@ -113,7 +113,55 @@ Para el refinamiento de los datos se hace un analisis exhaustivo de los datos de
 
 ## Análisis de las frecuencias de los movimientos mediante angulos y DTW
 
+El script para calcular los ángulos de los joints y obtendremos 3 ángulos distintos, se encuentra en [angulosG1](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/angulosG1.py) ahora el analisis para el DTW, se sigue el siguiente Algoritmo :
 
+### Dynamic Time Warping (DTW) con distancia euclidiana y extracción del Warping Path
+
+#### Pseudocódigo del Algoritmo
+
+```plaintext
+Función: DTW_with_path(A, B)
+    N <- longitud de la secuencia A
+    M <- longitud de la secuencia B
+    Crear matriz de costos C[N][M]
+    Para i desde 1 hasta N
+        Para j desde 1 hasta M
+            C[i][j] <- distancia euclidiana entre los puntos A[i] y B[j]
+        Fin Para
+    Fin Para
+    Crear matriz acumulativa D[N][M] inicializada con valores infinitos
+    Crear matriz de rutas R[N][M] inicializada con ceros
+    D[1][1] <- C[1][1]
+    Para i desde 2 hasta N
+        D[i][1] <- D[i-1][1] + C[i][1]
+    Fin Para
+    Para j desde 2 hasta M
+        D[1][j] <- D[1][j-1] + C[1][j]
+    Fin Para
+    Para i desde 2 hasta N
+        Para j desde 2 hasta M
+            candidates <- {D[i-1][j], D[i][j-1], D[i-1][j-1]}
+            min_candidate <- min(candidates)
+            D[i][j] <- C[i][j] + min_candidate
+            R[i][j] <- índice del candidato en candidates con valor min_candidate
+        Fin Para
+    Fin Para
+    path <- []
+    i <- N, j <- M
+    Mientras i > 1 o j > 1
+        Agregar (i, j) a path
+        direction <- R[i][j]
+        Si direction = 0
+            i <- i - 1
+        Sino si direction = 1
+            j <- j - 1
+        Sino
+            i <- i - 1
+            j <- j - 1
+        Fin Si
+    Fin Mientras
+    Agregar (1, 1) a path
+    retornar D[N][M], path
 
 
 
