@@ -82,8 +82,8 @@ Para el análisis visual de la lateralidad se utiliza el script [Lateralidad](ht
 
 <table>
   <tr>
-    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_Region_allJ1S1.png" alt="GIF 1" width="300"></td>
-    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_El_2_all_J1S1.png"  alt="GIF 2" width="300"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1_80.gif" alt="GIF 1"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Tiro1.gif"  alt="GIF 2"></td>
   </tr>
   </table>
 
