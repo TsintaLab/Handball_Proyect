@@ -111,6 +111,15 @@ Para el refinamiento de los datos se hace un analisis exhaustivo de los datos de
   </tr>
 </table>
 
+Tambien se hace el análsis de cuantos frames entre datos manualente selecccionados y datos depurados mediente histogramas de los joints.
+
+<table>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_Region_allJ1S1.png" alt="Imagen 1"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/stacked_histogram_El_2_all_J1S1.png" alt="Imagen 2"></td>
+  </tr>
+  </table>
+
 ## Análisis de las frecuencias de los movimientos mediante angulos y DTW
 
 El script para calcular los ángulos de los joints y obtendremos 3 ángulos distintos, se encuentra en [angulosG1](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/angulosG1.py) ahora el analisis para el DTW, se sigue el siguiente Algoritmo con el script [DTW](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/dtw_iter_3.py) :
