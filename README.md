@@ -111,7 +111,7 @@ Para el refinamiento de los datos se hace un analisis exhaustivo de los datos de
   </tr>
 </table>
 
-Tambien se hace el análsis de cuantos frames entre datos manualente selecccionados y datos depurados mediente histogramas de los joints.
+Tambien se hace el análsis de cuantos frames entre datos manualente selecccionados y datos depurados mediente histogramas de los joints mediante el siguiente script [stackAll](https://github.com/TsintaLab/Handball_Proyect/blob/main/DataAnalysis/stackAll.py).
 
 <table>
   <tr>
