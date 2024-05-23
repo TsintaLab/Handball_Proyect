@@ -44,6 +44,8 @@ En la siguiente carpeta está el código que se modifico para realizar varios pr
 6. Guardar los datos de profundidad.
 7. Guardar las coordenas de los joints. X, Y y Z
 
+![38 joints](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Display.png)
+
 ## Display LEDs
 El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales tienen un controlador MAX7219 se controla con la raspberry pi 3B con un raspbian de 32 bits instalado en una MicroSD de 32 Gb.
 
