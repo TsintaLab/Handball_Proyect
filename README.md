@@ -60,7 +60,6 @@ En la siguiente carpeta está el código que se modifico para realizar varios pr
 | 9              | RIGHT_EAR             | 19             | RIGHT_HIP               | 29             | RIGHT_HEEL                |                |                         |
 
 - Carpeta [BodyTracking](https://github.com/TsintaLab/Handball_Proyect/tree/main/BodyTracking)
-- 
 ## Display LEDs
 El dispositivo Display LEDs consta de 9 matrices de focos LEDs de 8x8 lo cuales tienen un controlador MAX7219 se controla con la raspberry pi 3B con un raspbian de 32 bits instalado en una MicroSD de 32 Gb. En las figuras a continuación tambien se presenta el diagrama de conexión de los GPIO con el display.
 
