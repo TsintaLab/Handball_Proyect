@@ -7,7 +7,12 @@ La información restante es el procesaiento de los datos, para su análisis, des
 
 Este es el arreglo experimental 
 
-![Arreglo experimental](https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Diagrama_DT_2.png)
+<table>
+  <tr>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/Diagrama_DT_2.png" alt="Imagen 1"></td>
+    <td><img src="https://github.com/TsintaLab/Handball_Proyect/blob/main/Figuras/frame_extraido.jpg" alt="Imagen 2"></td>
+  </tr>
+  </table>
 
 En donde 
 1. Porteria
